@@ -1,0 +1,95 @@
+Que es Net:
+plataforma de desarrollo gratis .. tiene un set de herramientas donde 
+se pueden crear aplicaciones
+* .Net framework solo funcionaba en entornos windows
+* .Net Core Funciona en todas las plataformas
+* Xamarin: para app moviles
+
+Tools
+vs code y .net cli "es dotnet"
+
+SDk de .net instalar
+dotnet para ver si esta intalada
+dotnet --info
+dotnet new ..list -h 
+dotnet new  console -o hola_mundo por defecto se crea en C#
+se creara una plantilla de consola
+
+csproj: se agregan configuraciones 
+dotnet run ejecutar program
+code . se abre vs code con el contenido de la carpeta donde estoy
+crtl ñ abrir terminal
+
+POO en C#
+Clses y objetos
+
+namespace carpeta
+public class creacion de clase
+getter y setter simplificados
+public int nombreMetodo {get => valriable; set => valiable =value;}
+
+Herencia
+Una clase que heredara de una clase padre
+heredara atributos y metodos de la clase padre
+
+class nuevaClase: claseheredar
+Puedo sobreescribir metodos 
+public override string nombre metodo(): sobreescrito
+y tambien se debe indicar que el metodo puede ser sobreescrito
+public virtual String metodo()
+
+
+interfaces: clase que establece reglas para las clases que usen la interfaz
+interface nombredela clase interfaz
+Aqui se declaran los metodos que seran obligatorios para quien use la interfaz
+
+clase Ave:animal,volador(nombre interfaz)
+al usar la interfaz volador nos toca implementar los metodos que esta tenga
+
+
+_____________________________________________________________________________
+web service: Java- .net
+Api rest 
+Interfaz algo que se expone para que alguien interactue con el, (consumida por otro software)
+Restful Api(simple, flexible, estable)
+json forma de entregar datos {"clave": valor}
+Http protocolo de comunicación en la web---URL
+verbos de http: get: , post: utilizado para crear algo
+delete:eliminar , put: utilizado para actualizar recursos
+stateles: no tiene estados siempre hay una entrada y salida
+
+Ejemplo CRud peliculas
+post crear payloud: manda información (crear)
+get manda la respuesta (leer)
+put atualizar y en la uri lleva el id (Actualizar)
+delete se manda el identificador
+Codigos de mensaje 200(ok)
+201(ok)
+404(no se encontro recurso)
+500(error de apliocación)
+300(direccionamiento)
+400(autentificación)
+
+--------------------------------------------------------------------
+Post --> json
+Mandar 1 y mandar todos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
